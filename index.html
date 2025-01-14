@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildingAI - Intelligent Building Code Compliance</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --text: #1f2937;
+            --light: #f3f4f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        header {
+            background: linear-gradient(rgba(37, 99, 235, 0.1), rgba(37, 99, 235, 0.05));
+            padding: 2rem 0;
+        }
+
+        .hero {
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: #4b5563;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: background-color 0.2s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--secondary);
+        }
+
+        .features {
+            padding: 6rem 0;
+            background-color: var(--light);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .waitlist {
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .email-form {
+            max-width: 500px;
+            margin: 2rem auto;
+        }
+
+        input[type="email"] {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: var(--text);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h3>BuildingAI</h3>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Building Compliance,<br>Simplified by AI</h1>
+            <p class="subtitle">
+                Revolutionizing building design with AI that ensures compliance with all local, state, and federal regulations in real-time.
+            </p>
+            <a href="#waitlist" class="cta-button">Join the Waitlist</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose BuildingAI?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Comprehensive Code Coverage</h3>
+                    <p>Our AI analyzes and understands building codes across all jurisdictions, ensuring your designs meet every requirement.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Real-time Validation</h3>
+                    <p>Get instant feedback on compliance issues as you design, saving time and preventing costly revisions.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Automatic Updates</h3>
+                    <p>Stay current with automatically updated regulations and code changes across all jurisdictions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="waitlist" id="waitlist">
+        <div class="container">
+            <h2>Be First in Line</h2>
+            <p>Join our waitlist to get early access and exclusive updates.</p>
+            <div class="email-form">
+                <form>
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="cta-button">Join Waitlist</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BuildingAI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
